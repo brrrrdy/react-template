@@ -1,0 +1,51 @@
+.textbox-container {
+  background-color: #3376b1;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.textbox-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.animals-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.animals-list li {
+  background-color: rgb(128, 21, 216);
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 4px;
+  border-left: 4px solid #4caf50;
+  transition: background-color 0.3s ease;
+}
+
+.animals-list li:hover {
+  background-color: #3b0373;
+  cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .textbox-container {
+    margin: 10px;
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .textbox-title {
+    font-size: 20px;
+  }
+}

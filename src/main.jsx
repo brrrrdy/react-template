@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import Greeting from "./components/Greeting.jsx";
 import Greeting2 from "./components/Greeting2.jsx";
 import TextBox from "./components/TextBox.jsx";
+import AnimalsList from "./components/List.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById("root")).render(
     <Greeting />
     <Greeting2 />
     <TextBox />
+    <AnimalsList />
   </StrictMode>
 );

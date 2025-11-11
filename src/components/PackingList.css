@@ -1,0 +1,16 @@
+.item {
+  color: red;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .textbox-container {
+    margin: 10px;
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .textbox-title {
+    font-size: 20px;
+  }
+}

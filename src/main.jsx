@@ -13,8 +13,8 @@ createRoot(document.getElementById("root")).render(
     <App />
     <Greeting />
     <Greeting2 />
-    <PackingList />
     <TextBox />
     <AnimalsList />
+    <PackingList />
   </StrictMode>
 );

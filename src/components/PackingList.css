@@ -1,5 +1,20 @@
+section {
+  border: 2px solid #b1b0b0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: left;
+  display: inline-block;
+  width: fit-content;
+}
+
 .item {
-  color: red;
+  color: rgb(255, 208, 0);
+}
+
+section h1 {
+  color: rgb(0, 255, 106);
+  font-size: 28px;
 }
 
 /* Responsive design */

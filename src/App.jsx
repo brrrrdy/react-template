@@ -5,12 +5,16 @@ import "./App.css";
 import Greeting from "./components/Greeting.jsx";
 import PackingList from "./components/PackingList.jsx";
 import ButtonDemo from "./components/Button.jsx";
+import NavBarTop from "./components/NavBarTop.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <NavBarTop>
+        <ButtonDemo />
+      </NavBarTop>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -34,7 +38,6 @@ function App() {
       </p>
       <Greeting />
       <PackingList />
-      <ButtonDemo />
     </>
   );
 }

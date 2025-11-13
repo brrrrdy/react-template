@@ -22,10 +22,35 @@ export default function ButtonDemo() {
   };
 
   return (
-    <div>
-      <Button
-        handleClick={() => handleButtonClick("https://www.theodinproject.com")}
-      />
-    </div>
+    <>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: "15px",
+          alignItems: "center",
+        }}
+      >
+        <Button
+          handleClick={() =>
+            handleButtonClick("https://www.theodinproject.com")
+          }
+        />
+
+        <Button
+          text="Visit Google"
+          color="green"
+          fontSize={16}
+          handleClick={() => handleButtonClick("https://www.google.com")}
+        />
+
+        <Button
+          text="Visit GitHub"
+          color="purple"
+          fontSize={18}
+          handleClick={() => handleButtonClick("https://github.com")}
+        />
+      </div>
+    </>
   );
 }

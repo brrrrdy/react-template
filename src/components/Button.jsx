@@ -16,4 +16,16 @@ function Button({
   );
 }
 
-export default Button;
+export default function ButtonDemo() {
+  const handleButtonClick = (url) => {
+    window.location.href = url;
+  };
+
+  return (
+    <div>
+      <Button
+        handleClick={() => handleButtonClick("https://www.theodinproject.com")}
+      />
+    </div>
+  );
+}

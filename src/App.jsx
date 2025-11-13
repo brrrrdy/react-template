@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Greeting from "./components/Greeting.jsx";
 import PackingList from "./components/PackingList.jsx";
-import Button from "./components/Button.jsx";
+import ButtonDemo from "./components/Button.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,7 +34,7 @@ function App() {
       </p>
       <Greeting />
       <PackingList />
-      <Button />
+      <ButtonDemo />
     </>
   );
 }

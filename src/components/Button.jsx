@@ -16,6 +16,8 @@ function Button({
   );
 }
 
+export { Button };
+
 export default function ButtonDemo() {
   const handleButtonClick = (url) => {
     window.location.href = url;

@@ -6,6 +6,7 @@ import Greeting from "./components/Greeting.jsx";
 import PackingList from "./components/PackingList.jsx";
 import ButtonDemo from "./components/Button.jsx";
 import NavBarTop from "./components/NavBarTop.jsx";
+import ColorBox from "./components/ColorBox.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,6 +39,7 @@ function App() {
       </p>
       <Greeting />
       <PackingList />
+      <ColorBox />
     </>
   );
 }
